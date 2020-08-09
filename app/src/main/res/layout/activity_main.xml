@@ -5,7 +5,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/color_white"
+        android:background="@drawable/corona_2_1607"
         android:orientation="vertical"
         tools:context=".MainActivity">
 
@@ -22,11 +22,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Global Stats"
-                android:textColor="#050505"
+                android:textColor="@android:color/background_light"
                 android:textAllCaps="true"
                 android:textAlignment="center"
                 android:textSize="35sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" android:fontFamily="serif"/>
 
         <!--Text view to display Total Cases-->
         <TextView
@@ -37,7 +37,7 @@
                 android:text="Total Cases"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="30sp"/>
+                android:textSize="30sp" android:textColor="@color/colorAccent"/>
 
         <!--Text view to display the updated number when data
          will fetch from the API. For now default set to 0 -->
@@ -48,9 +48,9 @@
                 android:id="@+id/tvCases"
                 android:textAlignment="center"
                 android:textSize="25sp"
-                android:textColor="@color/color_one"
+                android:textColor="@android:color/holo_blue_bright"
                 android:textStyle="bold"
-                android:fontFamily="sans-serif-light" />
+                android:fontFamily="sans-serif-light"/>
 
         <!--Text view to display Recovered Cases-->
         <TextView
@@ -60,7 +60,7 @@
                 android:text="Recovered"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="30sp"/>
+                android:textSize="30sp" android:textColor="@color/colorAccent"/>
 
         <!--Text view to display the updated number when data
          will fetch from the API. For now default set to 0 -->
@@ -71,9 +71,9 @@
                 android:id="@+id/tvRecovered"
                 android:textAlignment="center"
                 android:textSize="25sp"
-                android:textColor="@color/color_one"
+                android:textColor="@android:color/holo_blue_bright"
                 android:textStyle="bold"
-                android:fontFamily="sans-serif-light" />
+                android:fontFamily="sans-serif-light"/>
 
         <!--Text view to display Critical Cases-->
         <TextView
@@ -83,7 +83,7 @@
                 android:text="Critical"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="30sp"/>
+                android:textSize="30sp" android:textColor="@color/colorAccent"/>
 
         <!--Text view to display the updated number when data
          will fetch from the API. For now default set to 0 -->
@@ -94,9 +94,9 @@
                 android:id="@+id/tvCritical"
                 android:textAlignment="center"
                 android:textSize="25sp"
-                android:textColor="@color/color_one"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textStyle="bold"
-                android:fontFamily="sans-serif-light" />
+                android:fontFamily="sans-serif-light"/>
 
         <!--Text view to display Active Cases-->
         <TextView
@@ -106,7 +106,7 @@
                 android:text="Active"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="30sp"/>
+                android:textSize="30sp" android:textColor="@color/colorAccent"/>
 
         <!--Text view to display the updated number when data
          will fetch from the API. For now default set to 0 -->
@@ -117,9 +117,9 @@
                 android:id="@+id/tvActive"
                 android:textAlignment="center"
                 android:textSize="25sp"
-                android:textColor="@color/color_one"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textStyle="bold"
-                android:fontFamily="sans-serif-light" />
+                android:fontFamily="sans-serif-light"/>
 
         <!--Text view to display Today Cases-->
         <TextView
@@ -129,7 +129,7 @@
                 android:text="Today Cases"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="30sp"/>
+                android:textSize="30sp" android:textColor="@color/colorAccent"/>
 
         <!--Text view to display the updated number when data
          will fetch from the API. For now default set to 0 -->
@@ -140,9 +140,9 @@
                 android:id="@+id/tvTodayCases"
                 android:textAlignment="center"
                 android:textSize="25sp"
-                android:textColor="@color/color_one"
+                android:textColor="@android:color/holo_blue_bright"
                 android:textStyle="bold"
-                android:fontFamily="sans-serif-light" />
+                android:fontFamily="sans-serif-light"/>
 
         <!--Text view to display Total Deaths-->
         <TextView
@@ -152,7 +152,7 @@
                 android:text="Total Deaths"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="30sp"/>
+                android:textSize="30sp" android:textColor="@color/colorAccent"/>
 
         <!--Text view to display the updated number when data
          will fetch from the API. For now default set to 0 -->
@@ -163,9 +163,9 @@
                 android:id="@+id/tvTotalDeaths"
                 android:textAlignment="center"
                 android:textSize="25sp"
-                android:textColor="@color/color_one"
+                android:textColor="@android:color/background_dark"
                 android:textStyle="bold"
-                android:fontFamily="sans-serif-light" />
+                android:fontFamily="sans-serif-light"/>
 
         <!--Text view to display Today Deaths-->
         <TextView
@@ -175,7 +175,7 @@
                 android:text="Today Deaths"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="30sp"/>
+                android:textSize="30sp" android:textColor="@color/colorAccent"/>
 
         <!--Text view to display the updated number when data
          will fetch from the API. For now default set to 0 -->
@@ -186,9 +186,9 @@
                 android:id="@+id/tvTodayDeaths"
                 android:textAlignment="center"
                 android:textSize="25sp"
-                android:textColor="@color/color_one"
+                android:textColor="@color/color_white"
                 android:textStyle="bold"
-                android:fontFamily="sans-serif-light" />
+                android:fontFamily="sans-serif-light"/>
 
         <!--Text view to display Affected Countries-->
         <TextView
@@ -198,7 +198,7 @@
                 android:text="Affected Countries"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="30sp"/>
+                android:textSize="30sp" android:textColor="@color/colorAccent"/>
 
         <!--Text view to display the updated number when data
          will fetch from the API. For now default set to 0 -->
@@ -209,9 +209,9 @@
                 android:id="@+id/tvAffectedCountries"
                 android:textAlignment="center"
                 android:textSize="25sp"
-                android:textColor="@color/color_one"
+                android:textColor="@android:color/holo_blue_bright"
                 android:textStyle="bold"
-                android:fontFamily="sans-serif-light" />
+                android:fontFamily="sans-serif-light"/>
 
     </LinearLayout>
 
