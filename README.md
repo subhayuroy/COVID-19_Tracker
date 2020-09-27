@@ -4,7 +4,7 @@ The world is facing one of the worst epidemics, the outbreak of COVID-19, you al
 This is an Android application which gives global stats of Covid-19.
 The app size is 4.52 MB, user data is approximately 57.34 KB and cache data is 16.38 KB. In total the application size is about 4.61 MB.
 
-<h3>Tasklist:</h3>
+<h3>Tasklist:</h3>:-
 - [x] Create Layout
 - [x] Working Application on Android devices
 - [ ] Better graphics
