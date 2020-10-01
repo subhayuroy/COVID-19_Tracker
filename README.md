@@ -1,4 +1,7 @@
 <h1 align="center">COVID-19 Tracker</h1>
+<p align="left"><img alt="GitHub" src="https://img.shields.io/github/license/subhayuroy/COVID-19_Tracker?style=plastic"></p>
+
+
 The world is facing one of the worst epidemics, the outbreak of COVID-19, you all are aware of that. So during this lockdown time let’s create a COVID-19 Tracker Android App using REST API which will track the Global Stats only.
 
 This is an Android application which gives global stats of Covid-19.
